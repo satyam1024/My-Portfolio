@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@-webkit-keyframes hue {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+/* Apply the gradient text with animation */
+.gradient-text {
+    color: #f35626;
+    /* Initial text color */
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    /* Gradient */
+    -webkit-background-clip: text;
+    /* Clip background to text */
+    -webkit-text-fill-color: transparent;
+    /* Make text transparent */
+    -webkit-animation: hue 30s infinite linear;
+    /* Apply hue animation */
+}
