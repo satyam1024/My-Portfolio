@@ -14,7 +14,7 @@ function App() {
           autoPlay
           loop
           muted
-          className="fixed flex-1 top-0 left-0 w-1/2 h-full object-cover"
+          className="fixed flex-1 top-0 left-0 w-1/2 h-[120vh] object-cover"
           style={{ zIndex: -1 }}
         >
           <source src="/assets/stars-galaxy.webm" type="video/webm" />
@@ -24,7 +24,7 @@ function App() {
           autoPlay
           loop
           muted
-          className="fixed flex-1 top-0 right-0 w-1/2 h-full object-cover"
+          className="fixed flex-1 top-0 right-0 w-1/2 h-[120vh] object-cover"
           style={{ zIndex: -1 }}
         >
           <source src="/assets/stars-galaxy.webm" type="video/webm" />

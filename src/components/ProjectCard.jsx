@@ -27,7 +27,7 @@ function ProjectCard({ category, projects }) {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNavigation("next");
-    }, 500000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [projects.length]);
 
