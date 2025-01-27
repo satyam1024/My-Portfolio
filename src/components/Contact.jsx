@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import Alert from "./Alert.jsx";
-
+import { GoArrowUpRight } from "react-icons/go";
 const useAlert = () => {
   const [alert, setAlert] = useState({ show: false, text: "", type: "danger" });
 
@@ -36,15 +36,10 @@ function Contact() {
   };
 
   return (
-    <section className="c-space my-20 max-w-7xl mx-auto relative" id="contact">
+    <section className="my-16 max-w-7xl mx-auto relative" id="contact">
       {alert.show && <Alert {...alert} />}
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img
-          src="/assets/terminal.png"
-          alt="terminal-bg"
-          className="absolute inset-0 min-h-screen object-cover"
-        />
-        <div className="max-w-xl relative z-10 sm:px-10 px-5 mt-12">
+        <div className="border-2 border-white p-4 bg-[#020007] max-w-xl relative z-10 sm:px-10 px-5 mt-12">
           <h3 className="sm:text-4xl text-3xl font-semibold text-gray_gradient text-[#E4E4E6]">
             Let's talk
           </h3>
@@ -97,17 +92,11 @@ function Contact() {
             </label>
 
             <button
-              className="bg-black-500 px-5 py-2 min-h-12 rounded-lg shadow-[#0E0E10] shadow-2xl flex justify-center items-center text-lg text-white gap-3"
+              className="bg-black-500 px-5 py-2 min-h-12 rounded-lg bg-[#0a2103] shadow-[#0E0E10] shadow-2xl flex flex-row justify-center items-center text-lg text-white gap-3"
               type="submit"
               disabled={loading}
             >
-              {loading ? "Sending..." : "Send Message"}
-
-              <img
-                src="/assets/arrow-up.png"
-                alt="arrow-up"
-                className="w-2.5 h-2.5 object-contain invert brightness-0"
-              />
+              {loading ? "Sending..." : "Send Message"} <GoArrowUpRight />
             </button>
           </form>
         </div>

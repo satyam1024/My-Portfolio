@@ -15,7 +15,7 @@ function Footer() {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/satyam1024"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -26,7 +26,7 @@ function Footer() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/your-linkedin/"
+            href="https://www.linkedin.com/in/satyam-kathait/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -37,7 +37,7 @@ function Footer() {
             />
           </a>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:satyamkathait.s.k@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
