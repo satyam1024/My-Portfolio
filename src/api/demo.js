@@ -80,6 +80,13 @@ export const MyProject = {
       "description": "A cross-platform ride-sharing app with secure authentication, real-time data sync, and accurate navigation. RideBuddy helps users find rides quickly, track drivers in real time, and make payments securely. The app integrates GPS for route optimization and offers users a seamless and efficient way to book and track rides, making it a perfect choice for daily commutes or last-minute travel.",
       "projectLink": "https://github.com/satyam1024/r",
       "skills": ["React Native", "NativeWind", "Clerk", "Supabase", "Geoapify"]
+    },
+    {
+      "imageURL": "/project/real-estate.jpg",
+      "title": "Real Estate App",
+      "description": "A cross-platform mobile app built with React Native and Appwrite, allowing users to browse, bookmark, and book properties seamlessly. It features authentication, property listings, and a smooth UI powered by NativeWind. Efficient navigation is handled using Expo Router, with Appwrite managing the database and cloud storage.",
+      "projectLink": "https://github.com/satyam1024/real-estate",
+      "skills": ["React Native", "TypeScript", "Appwrite", "NativeWind", "Expo Router"]
     }
   ],
   Other: [

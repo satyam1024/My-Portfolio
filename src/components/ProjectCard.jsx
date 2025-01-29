@@ -42,7 +42,7 @@ function ProjectCard({ category, projects }) {
 
       <div className="relative flex flex-col gap-5 transition-transform duration-500 ease-in-out transform origin-center">
         <div className="bg-[#171718] p-10 flex flex-col lg:flex-row lg:space-x-4 rounded-lg shadow-lg overflow-hidden">
-          <div className="flex-1 object-cover justify-center items-center">
+          <div className="flex-1 object-contain justify-center items-center">
             <img
               className=" h-full rounded-lg transition-transform duration-500 ease-in-out transform hover:scale-120"
               src={currentProject.imageURL}
